@@ -7,13 +7,20 @@ public class SparkWebApp
     public static void main( String[] args )
     {
         port(getPort());
-        get("/hello", (req, res) -> "Hello Heroku");
+        get("/celsius", (req, res) -> {
+            return convertToCelsius(req.queryparams('degrees');
+        });
     }
 
-    static int getPort() {
+    public static int getPort() {
         if (System.getenv("PORT") != null) {
         return Integer.parseInt(System.getenv("PORT"));
         }
         return 4567;
+    }
+
+    private static String convertToCelsius(degrees: int) {
+        System.out.println(degrees);
+        return (degrees°C × 9/5) + 32;
     }
 }
