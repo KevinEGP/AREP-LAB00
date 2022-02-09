@@ -5,4 +5,4 @@
 
 ## Diseño
 
-Esta es una pequeña app de arquitectura monolítica, se utilizó java para crear una API REST el cual convierte de grados celsius a Fahrenheit y viceversa. Esta API es consumido desde un pequeño cliente web ubicado dentro de este mismo repositorio.
+Esta es una pequeña app de arquitectura monolítica, para la cual se utilizó java para crear una API REST, de tal manera que convierte de grados celsius a Fahrenheit y viceversa. Esta API es consumido desde un pequeño cliente web ubicado dentro de este mismo repositorio desarrollado con HTML y JQuery.
