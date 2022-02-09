@@ -1,5 +1,5 @@
 function convertTo(degrees_type) {
-  let endpoint = 'http://localhost:4567/';
+  let endpoint = 'http://localhost:26352/';
   let degrees =  $('#' + degrees_type).val();
   $('#' + degrees_type + '_result').text();
   $.ajax({
