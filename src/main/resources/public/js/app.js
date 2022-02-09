@@ -1,6 +1,6 @@
 function convertTo(degrees_type) {
   let port = 443;
-  let endpoint = `http://localhost:${port}/`;
+  let endpoint = `http://localhost/`;
   let degrees =  $(`#${degrees_type}`).val();
   $(`#${degrees_type}_result`).text();
   $.ajax({
