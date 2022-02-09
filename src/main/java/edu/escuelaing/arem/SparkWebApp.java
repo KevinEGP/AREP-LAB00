@@ -9,7 +9,8 @@ public class SparkWebApp
     public static void main( String[] args )
     {   
         
-        port(getPort());
+        // port(getPort());
+        port(4567);
         staticFiles.location("/public");
 
         options("/*", (request, response) -> {
