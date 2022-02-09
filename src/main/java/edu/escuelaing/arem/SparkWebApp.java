@@ -9,8 +9,7 @@ public class SparkWebApp
     public static void main( String[] args )
     {   
         
-        // port(getPort());
-        port(4567);
+        port(getPort());
         staticFiles.location("/public");
 
         options("/*", (request, response) -> {
@@ -63,10 +62,4 @@ public class SparkWebApp
         response.put("success", true);
         return response;
     }
-
-    private static String renderIndex() {
-        return "";
-    }
-
-
 }
