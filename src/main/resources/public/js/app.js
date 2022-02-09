@@ -1,5 +1,5 @@
 function convertTo(degrees_type) {
-  let port = 80;
+  let port = 443;
   let endpoint = `http://localhost:${port}/`;
   let degrees =  $(`#${degrees_type}`).val();
   $(`#${degrees_type}_result`).text();
