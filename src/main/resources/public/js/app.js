@@ -1,6 +1,5 @@
 function convertTo(degrees_type) {
-  let port = 443;
-  let endpoint = `http://localhost/`;
+  let endpoint = `https://degrees-app.herokuapp.com/`;
   let degrees =  $(`#${degrees_type}`).val();
   $(`#${degrees_type}_result`).text();
   $.ajax({
